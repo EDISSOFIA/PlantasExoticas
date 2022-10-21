@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:gravity="center"
     >
     <ImageView
-        android:layout_width="250dp"
-        android:layout_height="280dp"
+        android:layout_width="290dp"
+        android:layout_height="355dp"
         android:src="@drawable/imagen"
         />
     <LinearLayout
@@ -20,6 +20,17 @@
         android:background="#B5CDED"
         android:gravity="left"
         android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#B5CDED"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+
+
 
         <TextView
             android:layout_width="163dp"
@@ -27,7 +38,6 @@
             android:text="@string/text_username"
             android:textSize="30dp" />
         <EditText
-            android:id="@+id/nameUserEdit"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="#E2ECF1"
@@ -46,26 +56,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_password"
-            android:textSize="30dp"/>
+            android:textSize="25dp"/>
         <EditText
-            android:id="@+id/passUserEdit"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="#E2ECF1"
-            android:textSize="30dp"/>
+            android:textSize="25dp"/>
 
 
     </LinearLayout>
     <Button
-        android:id="@+id/botonUserlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:textSize="30dp"
-        android:onClick="loginUser"
+        android:textSize="25dp"
         android:text="@string/text_login"/>
 
 
-
+    </LinearLayout>
 
 </LinearLayout>
