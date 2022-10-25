@@ -28,10 +28,6 @@
             android:gravity="left"
             android:orientation="vertical">
 
-
-
-
-
         <TextView
             android:layout_width="163dp"
             android:layout_height="wrap_content"
