@@ -13,6 +13,13 @@
         android:theme="@style/Theme.PLANTASEXOTICAS"
         tools:targetApi="31">
         <activity
+            android:name=".ppaldrawer"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Ficha_Tecnica"
             android:exported="false">
             <meta-data

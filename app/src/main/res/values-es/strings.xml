@@ -1,10 +1,44 @@
 <resources>
-    <string name="app_name">PLANTASEXOTICAS</string>
+    <string name="app_name">ORQUIPEDIA</string>
     <string name="text_username">Usuario</string>
     <string name="text_password">Contraseña</string>
     <string name="text_login">Iniciar Sesión</string>
     <string name="hint_password">contraseña</string>
     <string name="hint_email">Correo</string>
+    <string name="txt_men1">Error de conexión</string>
+    <string name="txt_men2">Usuario o Contraseña son incorrectas</string>
+    <string name="txt_welcome">bienvenido</string>
+    <string name="txt_action_search">Búsqueda</string>
+    <string name="txt_action_settings">Configuración</string>
+    <string name="txt_action_logout">Cerrar sesión</string>
+    <string name="txt_action_email"> Correo</string>
+    <string name="txt_tarea1">Nueva especies</string>
+    <string name="txt_tarea2">Ficha Tecnica</string>
+    <string name="txt_tarea3">Tarea #3</string>
+    <string name="txt_cont1">Cattleya spp</string>
+    <string name="txt_cont2">Scientific or Latin name: Cattleya spp.
+Common or vulgar name: Cattleya, Cattleya, Lirio de Mayo, Lirio de San Juan, Sanjuan</string>
+    <string name="txt_cont3">Cattleya spp Source:</string>
+    <string name="txt_cont4">Originally from Central and South America, concentrated mainly in the Andean regions of northern and western South America, and the largest in Brazil, mainly the coastal regions. Cattleyas are also found in Mexico, Panama, Trinidad, Venezuela and Peru.
+</string>
+    <string name="txt_cont5">Etymology Cattleya spp</string>
+    <string name="txt_cont6">Generic name dedicated to W. Cattley, an orchid collector who died in the first half of the 19th century. Cattleya is a genus of between 50 and 75 species of epiphytic orchids. Now there are beautiful hybrids that can be grown in a living room. It is characterized by the presence of cylindrical pseudobulbs with several nodes and thick leaves. Epiphytic plant with a pseudobulb that starts from a rhizomatous stem, emerging from it the roots with which the plant grows. orchid adheres to the host plant. One or two sessile, fleshy leaves are inserted at the apex of the pseudobulbs.</string>
+    <string name="txt_cont7">Humidity Environmental:</string>
+    <string name="txt_cont8">Environmental humidity 70 to 80% relative humidity, or more than 20ºC; 50 to 60%, between 14 and 18ºC. This can also be achieved at home by placing the plants on gravel partially covered with water.</string>
+    <string name="txt_gen00">GENERO ORQUIDEA</string>
+    <string name="txt_gen1">Orquidea</string>
+    <string name="txt_gen2">Estas orquídeas Crecen únicamente entre la humedad y el calor de la selva del Amazonas y en los Llanos Orientales. Generalmente se encuentran en el borde de los ríos en donde parte de la planta queda cubierta de agua sobresaliendo solamente sus flores de color azul-violeta y sus pétalos que se perciben únicamente de color azul bajo la luz del sol.</string>
+    <string name="txt_gen3">Cattleya Trianae</string>
+    <string name="txt_gen4">Es la flor emblemática de Colombia y es otra especie endémica al Alto Magdalena, donde está muy amenazada por la sobre-recolección.</string>
+    <string name="txt_gen5">Houlletia odoratissima</string>
+    <string name="txt_gen6">Esta peculiar especie es propia a las selvas muy lluviosas donde es polinizada por abejones como los de la foto.</string>
+    <string name="txt_gen7">Genero de Orquidea</string>
+    <string name="txt_noticias1">El descubrimiento de las 2(Dos) nuevas especies fue publicado recientemente por una de las revistas de la Universidad de Harvard de uno de los centros de pensamiento más importantes del mundo en el área de investigación científica.
+La primera especie descubierta  fue bautizada como EPIDENDRUM CALIMAENSE
+La Segunda especie descubierta fue bautizada como Epidendrum celsiae, el nombre se lo  dieron en homenaje al lugar donde las encontraron y a Celsia.
+</string>
+
+
     <string name="text_news">Descubrimiento  de  dos nuevas especies de orquídeas fueron descubiertas en el Valle del Cauca Investigadores del Jardín Botánico de Bogotá, en conjunto con un investigador externo descubrieron recientemente una nueva especie de orquídea en la cuenca del Río Azufrado, en inmediaciones del Volcán Nevado del Ruiz. A esta la nombraron como como Pleurothallis villahermosa, en reconocimiento al municipio de Villahermosa.</string>
     <string name="text_fich">Nombre científico o latino: Cattleya spp.
 Nombre común o vulgar: Cattleya, Catleya, Lirio de mayo, Lirio de San Juán, Sanjuan

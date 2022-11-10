@@ -8,6 +8,15 @@
     android:orientation="vertical"
     android:gravity="center"
     >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="180dp"
@@ -18,14 +27,10 @@
     <TextView
         android:layout_width="448dp"
         android:layout_height="wrap_content"
-        android:text="ORQUIDEDIA"
-        android:textSize="60dp" />
-
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="NOTICIAS"
+        android:text="ORQUIDEDIA NOTICIAS"
         android:textSize="40dp" />
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,10 +47,10 @@
         />
 
         <TextView
-            android:layout_width="448dp"
+            android:layout_width="800dp"
             android:layout_height="wrap_content"
             android:text="@string/text_news"
-            android:textSize="30dp" />
+            android:textSize="35dp" />
 
     </LinearLayout>
 

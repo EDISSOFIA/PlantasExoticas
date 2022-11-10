@@ -4,19 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="horizontal"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="left">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
     <ImageView
-        android:layout_width="420dp"
-        android:layout_height="620dp"
+        android:layout_width="290dp"
+        android:layout_height="600dp"
         android:src="@drawable/imagen" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="20dp"
         android:background="#B5CDED"
         android:gravity="left"
         android:orientation="vertical">
@@ -28,27 +40,24 @@
             android:background="#B5CDED"
             android:gravity="left"
             android:orientation="vertical">
-
-
             <TextView
-                android:layout_width="163dp"
+                android:layout_width="173dp"
                 android:layout_height="wrap_content"
                 android:text="@string/text_username"
-                android:textSize="35dp" />
+                android:textSize="34dp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="#E2ECF1"
-                android:textSize="43dp" />
-
+                android:textSize="60dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="60dp"
             android:background="#B5CDED"
             android:gravity="left"
             android:orientation="vertical">
@@ -63,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="#E2ECF1"
-                android:textSize="40dp" />
+                android:textSize="60dp" />
 
 
         </LinearLayout>
@@ -75,7 +84,6 @@
             android:text="@string/text_login"
             android:textSize="40dp" />
 
-
     </LinearLayout>
-
+    </LinearLayout>
 </LinearLayout>

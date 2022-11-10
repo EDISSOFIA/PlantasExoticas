@@ -6,26 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".Noticias"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="left"
     >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     <ImageView
         android:layout_width="250dp"
         android:layout_height="180dp"
         android:src="@drawable/orquipedia"
         />
 
-
     <TextView
-        android:layout_width="448dp"
+        android:layout_width="648dp"
         android:layout_height="wrap_content"
-        android:text="ORQUIDEDIA"
-        android:textSize="60dp" />
-
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="NOTICIAS"
-        android:textSize="40dp" />
+        android:text="ORQUIDEDIA NOTICIA"
+        android:textSize="60dp"
+        android:gravity="center"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,12 +44,15 @@
         android:layout_height="280dp"
         android:src="@drawable/nuevaespecie"
         />
-
+        <ScrollView
+            android:layout_width="1200dp"
+            android:layout_height="200dp">
         <TextView
-            android:layout_width="448dp"
+            android:layout_width="1500dp"
             android:layout_height="wrap_content"
             android:text="@string/text_news"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
+        </ScrollView>
 
     </LinearLayout>
 

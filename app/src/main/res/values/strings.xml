@@ -1,10 +1,43 @@
 <resources>
-    <string name="app_name">PLANTASEXOTICAS</string>
+    <string name="app_name">ORCHIPEDIA</string>
     <string name="text_username">Username</string>
     <string name="text_password">Password</string>
     <string name="text_login">Login</string>
     <string name="hint_password">password</string>
     <string name="hint_email">E-mail</string>
+    <string name="txt_men1">connection error</string>
+    <string name="txt_men2">Username or Password are incorrect </string>
+    <string name="txt_welcome">welcome</string>
+    <string name="txt_action_search">Search</string>
+    <string name="txt_action_settings">Settings</string>
+    <string name="txt_action_logout">Logout</string>
+    <string name="txt_action_email">E-mail</string>
+    <string name="txt_tarea1">New Species</string>
+    <string name="txt_tarea2">Data sheet</string>
+    <string name="txt_tarea3">Task #3</string>
+    <string name="txt_cont1">Cattleya spp</string>
+    <string name="txt_cont2">Nombre científico o latino:Cattleya spp. Nombre común o vulgar:Cattleya,Catleya,Lirio de mayo,Lirio de San Juán,Sanjuan
+       </string>
+    <string name="txt_cont3">Cattleya trianae</string>
+    <string name="txt_cont4">Originales de la América Central y América del Sur, concentradas principalmente en las regiones Andinas de Sudamérica del norte y occidental, y la más grande en Brasil, principalmente las regiones costeras. Cattleyas también hay en México, Panamá, Trinidad, Venezuela y Perú.</string>
+    <string name="txt_cont5">Etimología Cattleya spp</string>
+    <string name="txt_cont6">Nombre genérico dedicado a W. Cattley, coleccionista de orquídeas muerto en la primera mitad del siglo XIX.Cattleya es un género de entre 50 y 75 especies de orquídeas epífitas. hora existen bellos híbridos que es posible cultivar en un cuarto de estar.Se caracteriza por la presencia de pseudobulbos cilíndricos de varios nodos con hojas gruesas.Planta epífita provista de pseudobulbo que arranca de un tallo rizomatoso, emergiendo del mismo las raíces con las que la orquídea se adhiere a la planta huésped.En el ápice de los pseudobulbos se insertan una o dos hojas sésiles y carnosas.</string>
+    <string name="txt_cont7">Humedad Ambiental:</string>
+    <string name="txt_cont8">Humedad ambiental del 70 al 80% de humedad relativo, o más de 20ºC; del 50 al 60%, entre 14 y 18ºC. Esto se puede lograr también en el hogar poniendo las plantas sobre grava parcialmente cubierta con agua.</string>
+    <string name="txt_gen00">ORCHID GENUS</string>
+    <string name="txt_gen1">Orchid</string>
+    <string name="txt_gen2">These orchids grow only in the humidity and heat of the Amazon jungle and in the Eastern Plains. They are generally found on the banks of rivers where part of the plant is covered with water, with only its blue-violet flowers protruding and its petals that are only perceived as blue in sunlight.</string>
+    <string name="txt_gen3">Cattleya Trianae</string>
+    <string name="txt_gen4">It is the emblematic flower of Colombia and is another species endemic to Alto Magdalena, where it is highly threatened by over-harvesting.</string>
+    <string name="txt_gen5">Houlletia odoratiss</string>
+    <string name="txt_gen6">This peculiar species is typical of very rainy forests where it is pollinated by drones like the ones in the photo.</string>
+    <string name="txt_gen7">gender orchids </string>
+    <string name="txt_noticias1">The discovery of the 2(Two) new species was recently published by one of the Harvard University journals from one of the most important think tanks in the world in the area of scientific research.
+The first species discovered was named EPIDENDRUM CALIMAENSE
+The second species discovered was baptized as Epidendrum celsiae, the name was given in homage to the place where they were found and to Celsia.
+</string>
+
+
     <string name="text_news">Discovery of two new species of orchids were discovered in Valle del Cauca
  Researchers from the Bogotá Botanical Garden, together with an external researcher, recently discovered a new species of orchid in the Azufrado River basin, in the vicinity of the Nevado del Ruiz Volcano. This was named as Pleurothallis villahermosa, in recognition of the municipality of Villahermosa.</string>
     <string name="text_fich">Scientific or Latin name: Cattleya spp.
@@ -29,7 +62,7 @@ It lives for one to three years indoors, and up to 7 to 10 years in a greenhouse
 CATTLEYA CULTIVATION
 Fairly easy growing plant. Very varied in their requirements and demands for cultivation, although they usually need high humidity and high temperatures.
 Light:
-Very bright. The sun's rays should never reach the plant directly. During growth they also like a lot of light, preferably in the sun, but with protection during the hottest hours of the afternoon. winter and in a place where they receive natural light, both in intensity and duration. It is important that Cattleya undergoes the shortening of the day to flower. If the plants are in a place with artificial light during the winter, which artificially prolongs the duration of the day, there is a risk of preventing its flowering. Therefore, light is one of the most important factors in the cultivation of Cattleyas.
+Very bright. The suns rays should never reach the plant directly. During growth they also like a lot of light, preferably in the sun, but with protection during the hottest hours of the afternoon. winter and in a place where they receive natural light, both in intensity and duration. It is important that Cattleya undergoes the shortening of the day to flower. If the plants are in a place with artificial light during the winter, which artificially prolongs the duration of the day, there is a risk of preventing its flowering. Therefore, light is one of the most important factors in the cultivation of Cattleyas.
 
 Temperatures:
 Suitable for interior or temperate greenhouse (minimum 11ºC) as long as it is vaporized regularly. In summer they can be taken outside.

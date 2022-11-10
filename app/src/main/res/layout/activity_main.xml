@@ -8,9 +8,19 @@
     android:orientation="vertical"
     android:gravity="center"
     >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     <ImageView
         android:layout_width="250dp"
-        android:layout_height="280dp"
+        android:layout_height="260dp"
         android:src="@drawable/imagen"
         />
     <LinearLayout
@@ -22,14 +32,14 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="163dp"
+            android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:text="@string/text_username"
             android:textSize="30dp" />
         <EditText
             android:id="@+id/nameUserEdit"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="35dp"
             android:background="#E2ECF1"
             android:textSize="30dp"/>
 
@@ -38,7 +48,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="15dp"
         android:background="#B5CDED"
         android:gravity="left"
         android:orientation="vertical">
@@ -50,9 +60,9 @@
         <EditText
             android:id="@+id/passUserEdit"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="35dp"
             android:background="#E2ECF1"
-            android:textSize="30dp"/>
+            android:textSize="25dp"/>
 
 
     </LinearLayout>
@@ -60,7 +70,7 @@
         android:id="@+id/botonUserlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="8dp"
         android:textSize="30dp"
         android:onClick="loginUser"
         android:text="@string/text_login"/>

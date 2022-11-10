@@ -5,9 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:gravity="center"
     >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
     <ImageView
         android:layout_width="290dp"
         android:layout_height="355dp"
@@ -59,7 +74,6 @@
             android:background="#E2ECF1"
             android:textSize="25dp"/>
 
-
     </LinearLayout>
     <Button
         android:layout_width="match_parent"
@@ -68,7 +82,7 @@
         android:textSize="25dp"
         android:text="@string/text_login"/>
 
-
+    </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
